@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proiect ASiSoft PBA</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> <!-- Linking to Tailwind CSS -->
+    <link href="styles.css" rel="stylesheet"> <!-- Linking to the external CSS file -->
+</head>
+<body class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+    <!-- Left Logo -->
+    <img src="/unitbv.png" alt="Left Logo" class="logo left-logo">
+    <div class="container mx-auto py-10">
+        <!-- Heading -->
+        <h1 class="text-4xl text-center text-white font-bold mb-8">Let's Find Some Info!</h1>
+        <!-- Form -->
+        <form id="informationForm" class="space-y-4 max-w-md mx-auto">
+            <div class="flex flex-col">
+                <label for="val_id" class="text-white">Name:</label>
+                <input type="text" id="val_id" name="val_name" required class="rounded-lg px-4 py-2 bg-white text-gray-800">
+            </div>
+            <div class="flex flex-col">
+                <label for="type_id" class="text-white">Type (client/company):</label>
+                <select id="type_id" name="type_name" class="rounded-lg px-4 py-2 bg-white text-gray-800">
+                    <option value="cl">Client</option>
+                    <option value="co">Company</option>
+                </select>
+            </div>
+            <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg transition duration-300">Get Information</button>
+        </form>
+        <!-- Loading Bar -->
+        <div id="loading_bar" class="hidden mt-4 w-full h-3 rounded-lg bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500"></div>
+        <!-- Data Container -->
+        <div id="data_container" class="hidden mt-4 bg-gradient-to-l from-orange-400 to-red-600 p-6 rounded-lg shadow-lg text-white">
+            <!-- Updated to a gradient background from summer orange to bloody red (inverted), added padding, rounded corners, and a shadow for a modern look -->
+            <p class="text-xl">Your information will appear here!</p>
+        </div>
+        <!-- Error Container -->
+        <div id="error_container" class="hidden mt-4 text-white"></div>
+    </div>
+    <!-- JavaScript -->
+    <script>
+        document.getElementById('informationForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const formData = new FormData(this);
+            processRequest(formData);
+        })
+
+        function processRequest(formData) {
+            // Show loading bar
+            document.getElementById('loading_bar').classList.remove('hidden');
+            // Simulate delay for demonstration
+            setTimeout(() => {
+                fetch('/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(Object.fromEntries(formData))
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    document.getElementById('data_container').innerHTML = data.result;
+                    document.getElementById('data_container').classList.remove('hidden');
+                    document.getElementById('error_container').classList.add('hidden');
+                    // Hide loading bar on successful response
+                    document.getElementById('loading_bar').classList.add('hidden');
+                })
+                .catch(error => {
+                    document.getElementById('error_container').innerHTML = 'Error: ' + error;
+                    document.getElementById('error_container').classList.remove('hidden');
+                    document.getElementById('data_container').classList.add('hidden');
+                    // Hide loading bar on error
+                    document.getElementById('loading_bar').classList.add('hidden');
+                })
+            }, 2000); // Simulated delay of 2 seconds
+        }
+    </script>
+</body>
+</html>

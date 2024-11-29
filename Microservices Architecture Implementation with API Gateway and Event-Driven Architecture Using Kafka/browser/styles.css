@@ -1,0 +1,98 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* styles.css */
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFCE5; /* Soft yellow background for a summer vibe */
+}
+
+/* Container */
+.container {
+    max-width: 400px; /* Smaller container width */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FDEEF4; /* Soft pastel pink background */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.container h1 {
+    text-align: center;
+    color: #FF7EB9; /* Vibrant pink color */
+    font-size: 2.5rem; /* Increased font size */
+    font-weight: bold;
+    margin-bottom: 20px; /* Increased margin bottom */
+}
+
+/* Form Elements */
+.container input[type="text"],
+.container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #E0E0E0; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-sizing: border-box;
+    transition: border-color 0.3s; /* Smooth border transition */
+}
+
+.container input[type="text"]:focus,
+.container select:focus {
+    border-color: #FF9FCD; /* Pink border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Submit Button */
+.container input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #5CA2FF; /* Blue submit button */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.container input[type="submit"]:hover {
+    background-color: #4688F1; /* Darker blue on hover */
+}
+
+/* Loading Bar */
+#loading_bar {
+    position: relative;
+    overflow: hidden;
+    height: 4px;
+    background-color: #5CA2FF; /* Blue loading bar */
+    width: 0%;
+    transition: width 0.4s ease;
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
+
+/* Left Logo */
+.left-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Right Logo */
+.right-logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
