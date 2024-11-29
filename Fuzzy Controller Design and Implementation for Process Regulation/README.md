@@ -78,8 +78,3 @@ A file named `date.txt` contains a set of recorded error values. Using these val
 2. **Step 2**: Open the Matlab model in Simulink and run the simulation for verification.
 3. **Step 3**: Compile the C/C++ code using your preferred compiler.
 4. **Step 4**: Run the C/C++ implementation and compare the output with the Matlab results.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
