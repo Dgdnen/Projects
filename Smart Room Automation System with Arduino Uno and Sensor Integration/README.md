@@ -1,46 +1,47 @@
-# Proiect: Automatizarea unei camere inteligente
 
-[Link către proiect pe Tinkercad](https://www.tinkercad.com/things/ib4Cs7Rp04m-copy-of-final-final-final)
+# Project: Smart Room Automation
 
-## Descrierea proiectului
+[Link to the project on Tinkercad](https://www.tinkercad.com/things/ib4Cs7Rp04m-copy-of-final-final-final)
 
-Acest proiect implementează un **sistem inteligent de automatizare a unei camere**, utilizând un modul Arduino Uno și diverși senzori. Scopul proiectului este de a crea un mediu automatizat, care să monitorizeze și să răspundă la diferiți factori de mediu și interacțiuni.
+## Project Description
 
-### Functionalități implementate:
-1. **Senzor cu ultrasunete**:
-   - Controlează deschiderea unei uși automate.
-   - Dacă distanța față de senzor scade sub 50 cm, un servomotor deschide ușa la un unghi de 90°.
-2. **Senzor PIR (de prezență)**:
-   - Detectează mișcarea în cameră.
-   - Aprinde un bec atunci când detectează mișcare.
-3. **Senzor de temperatură (TMP36)**:
-   - Monitorizează temperatura la fiecare 30 de secunde.
-   - Dacă temperatura scade sub 25°C, ușa se închide automat (dacă este deschisă).
-4. **Display LCD**:
-   - Afișează informații despre starea senzorilor și temperatura în timp real.
+This project implements a **smart room automation system**, using an Arduino Uno module and various sensors. The goal of the project is to create an automated environment that monitors and responds to different environmental factors and interactions.
 
-### Cerințe tehnice:
-- Codul este scris **la nivel de registru**, fără utilizarea funcțiilor Arduino sau a bibliotecilor externe.
-- Include controlul senzorilor și afișarea datelor pe un ecran LCD.
+### Implemented Features:
+1. **Ultrasonic Sensor**:
+   - Controls the opening of an automatic door.
+   - If the distance to the sensor drops below 50 cm, a servo motor opens the door to a 90° angle.
+2. **PIR (Presence) Sensor**:
+   - Detects motion within the room.
+   - Turns on a light when motion is detected.
+3. **Temperature Sensor (TMP36)**:
+   - Monitors the temperature every 30 seconds.
+   - If the temperature drops below 25°C, the door automatically closes (if open).
+4. **LCD Display**:
+   - Displays information about sensor status and real-time temperature.
 
-## Cerințe inițiale
+### Technical Requirements:
+- The code is written **at the register level**, without using Arduino functions or external libraries.
+- It includes sensor control and data display on an LCD screen.
 
-1. **Ultrasunete**: Control deschidere ușă.
-2. **PIR**: Aprindere lumină la mișcare.
-3. **TMP36**: Monitorizare temperatură.
-4. **Servomotor**: Control ușă.
-5. **LCD**: Afișare date senzori.
+## Initial Requirements
 
-## Instrucțiuni pentru rulare
+1. **Ultrasonic Sensor**: Door opening control.
+2. **PIR Sensor**: Light turn-on with motion detection.
+3. **TMP36 Sensor**: Temperature monitoring.
+4. **Servo Motor**: Door control.
+5. **LCD Display**: Sensor data display.
 
-1. Clonează acest repository pe computerul tău.
-2. Deschide fișierul `.ino` în Arduino IDE.
-3. Asigură-te că ai conectat componentele conform schemei din proiectul Tinkercad.
-4. Încarcă codul pe un Arduino Uno.
-5. Monitorizează și testează funcționalitățile utilizând un display LCD și componentele conectate.
+## Instructions to Run
 
-## Captură de ecran a proiectului
+1. Clone this repository to your computer.
+2. Open the `.ino` file in Arduino IDE.
+3. Ensure that you have connected the components according to the schematic in the Tinkercad project.
+4. Upload the code to an Arduino Uno.
+5. Monitor and test the features using the LCD display and connected components.
 
-![Proiect Tinkercad](./proiect_tinkercad.png)
+## Project Screenshot
 
-Proiect realizat ca parte a cerințelor academice pentru un sistem inteligent de automatizare. Toate componentele și codul respectă cerințele specificate.
+![Tinkercad Project](./proiect_tinkercad.png)
+
+This project was created as part of academic requirements for a smart automation system. All components and code meet the specified requirements.
