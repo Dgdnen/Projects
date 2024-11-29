@@ -1,83 +1,83 @@
-# Modelarea și Simularea Strategiei de Dozare a Medicamentelor
 
-## Descriere
+# Modeling and Simulation of Drug Dosing Strategy
 
-Acest proiect se axează pe **modelarea și simularea strategiei de dozare a medicamentelor**, cu un focus special pe antibiotice. Folosind modele PK/PD (Farmacocinetică/Farmacodinamie), lucrarea stabilește doza terapeutică optimă de medicament administrată unui pacient.
+## Description
 
-### Funcționalități principale:
-1. **Modele PK/PD**:
-   - Model cu un compartiment.
-   - Model cu două compartimente.
-   - Model cu trei compartimente.
-2. **Personalizare parametri pacient**:
-   - Parametri fiziologici: sex, greutate, vârstă.
-   - Parametri biologici: creatinină serică, rata de eliminare renală.
-3. **Simulare dinamică**:
-   - Simularea evoluției concentrației medicamentului și efectului asupra CFU (unități formatoare de colonii) pentru o perioadă de 14 zile.
-   - Alegerea dozei optime pentru administrarea unui medicament.
-4. **Interfață grafică (GUI)**:
-   - Dezvoltată folosind **AppDesigner** din Matlab.
-   - Permite introducerea și ajustarea parametrilor modelului și vizualizarea rezultatelor simulării într-un mod accesibil.
+This project focuses on the **modeling and simulation of drug dosing strategies**, with a special emphasis on antibiotics. Using PK/PD (Pharmacokinetics/Pharmacodynamics) models, the work establishes the optimal therapeutic dose of a drug administered to a patient.
 
----
-
-## Obiectiv
-
-Proiectul își propune să faciliteze **administrarea optimă și sigură a antibioticelor** pentru pacienți, având în vedere parametrii biologici și fiziologici ai acestora. Utilizatorul poate selecta tipul de model PK/PD și vizualiza rezultatele simulării pentru mai mulți pacienți.
+### Main Features:
+1. **PK/PD Models**:
+   - One-compartment model.
+   - Two-compartment model.
+   - Three-compartment model.
+2. **Patient Parameter Customization**:
+   - Physiological parameters: sex, weight, age.
+   - Biological parameters: serum creatinine, renal elimination rate.
+3. **Dynamic Simulation**:
+   - Simulates the evolution of the drug concentration and its effect on CFU (colony-forming units) over a 14-day period.
+   - Selects the optimal dose for drug administration.
+4. **Graphical User Interface (GUI)**:
+   - Developed using **AppDesigner** in Matlab.
+   - Allows input and adjustment of model parameters and visualization of simulation results in an accessible way.
 
 ---
 
-## Instrumente utilizate
+## Objective
 
-- **SimBiology** din Matlab pentru crearea și rularea modelelor PK/PD.
-- **AppDesigner** din Matlab pentru dezvoltarea unei interfețe grafice prietenoase.
-
----
-
-## Cum funcționează?
-
-1. **Introducerea parametrilor**: 
-   - Utilizatorul introduce datele pacientului (fiziologice și biologice) în interfața grafică.
-2. **Selectarea modelului PK/PD**:
-   - Alege tipul de model farmacocinetic dorit.
-3. **Rulare simulări**:
-   - Sistemul simulează dinamica dozei pentru o perioadă de 14 zile.
-4. **Analiza rezultatelor**:
-   - Utilizatorul vizualizează grafice și recomandări privind doza optimă.
+The project aims to facilitate the **optimal and safe administration of antibiotics** for patients, considering their biological and physiological parameters. The user can select the type of PK/PD model and view simulation results for multiple patients.
 
 ---
 
-## Capturi de ecran
+## Tools Used
 
-### Interfața grafică
-![Interfață GUI](./interfata_gui.png)
-
-### Exemplu simulare 1
-![Exemplu Simulare 1](./exemplu_simulare_1.png)
-
-### Exemplu simulare 2
-![Exemplu Simulare 2](./exemplu_simulare_2.png)
+- **SimBiology** in Matlab for creating and running PK/PD models.
+- **AppDesigner** in Matlab for developing a user-friendly graphical interface.
 
 ---
 
-## Documentație suplimentară
+## How Does It Work?
 
-Pentru o descriere detaliată a proiectului, consultă fișierul PDF/PPTX disponibil în repository:  
-[Prezentare Licență - Patrania Bogdan Andrei](./Prezentare_Licenta_PatraniaBogdanAndrei.pdf)
-
----
-
-## Cum să rulezi proiectul?
-
-1. Clonează repository-ul pe computer.
-2. Deschide fișierul principal din Matlab.
-3. Rulează aplicația pentru a deschide interfața grafică.
-4. Introdu parametrii pacientului și selectează modelul PK/PD.
-5. Analizează rezultatele simulării generate.
+1. **Input Parameters**:
+   - The user enters patient data (physiological and biological) in the graphical interface.
+2. **Select PK/PD Model**:
+   - Choose the desired pharmacokinetic model.
+3. **Run Simulations**:
+   - The system simulates dose dynamics over a 14-day period.
+4. **Analyze Results**:
+   - The user views graphs and recommendations for the optimal dose.
 
 ---
 
-## Licență
+## Screenshots
 
-Acest proiect este realizat ca parte a unei lucrări de licență și este destinat uzului educațional.
+### Graphical Interface
+![Graphical Interface](./interfata_gui.png)
 
+### Simulation Example 1
+![Simulation Example 1](./exemplu_simulare_1.png)
+
+### Simulation Example 2
+![Simulation Example 2](./exemplu_simulare_2.png)
+
+---
+
+## Additional Documentation
+
+For a detailed description of the project, refer to the PDF/PPTX file available in the repository:  
+[License Thesis Presentation - Patrania Bogdan Andrei](./Prezentare_Licenta_PatraniaBogdanAndrei.pdf)
+
+---
+
+## How to Run the Project?
+
+1. Clone the repository to your computer.
+2. Open the main file in Matlab.
+3. Run the application to open the graphical interface.
+4. Enter patient parameters and select the PK/PD model.
+5. Analyze the generated simulation results.
+
+---
+
+## License
+
+This project was created as part of a Bachelor's thesis and is intended for educational use.
