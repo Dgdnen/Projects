@@ -1,5 +1,8 @@
-title: Bogdan Patrania
-#logo:
-#description:
+title: "Bogdan Patrania"
+logo: "/assets/img/headshot_circle.jpeg"
+description: >
+  A driven individual with a strong passion for the engineering industry. 
+  Good team player and communicator, adept at meeting deadlines, and skilled in collaborative teamwork. 
+  Pursuing a Master's Degree in Control Theory and Information Technology at Transilvania University of Brasov.
 show_downloads: true
 theme: jekyll-theme-minimal
