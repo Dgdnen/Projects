@@ -1,3 +1,56 @@
+## Work Experience
+
+### **Working Student in Software**  
+**TERMA Group** — Brașov, România  
+**July 2024 - October 2024 (4 months)**  
+At Terma, I worked on upgrading the Identity and Access Management (IAM) architecture, focusing on R&D, UI improvements, and transitioning to WSO2 Identity Server 7. I worked extensively with Linux, LDAP, PostgreSQL, and React, building skills in manual testing, software documentation, and troubleshooting. I contributed to automation using Python and Bash, supported deployments, and worked with Docker and CI/CD pipelines.
+
+**Technologies:** Linux, LDAP, PostgreSQL, React, Python, Bash, Docker, Git, Jira, CI/CD
+
+---
+
+### **Software Engineer (Part-Time)**  
+**ROGLAS IND SRL** — Piatra Neamț, Neamț, România  
+**May 2024 - July 2024 (3 months)**  
+I focused on creating robust software documentation, managing SQL databases, and performing manual testing to ensure software reliability. I also gained experience in data analysis and automation, working with tools like Docker and CI/CD pipelines.
+
+**Technologies:** SQL, MySQL, Docker, CI/CD, Data Science
+
+---
+
+### **Spring Framework App Development (Internship)**  
+**IBM** — Brașov, România  
+**March 2022 - May 2022 (3 months)**  
+I worked on a REST app using the Spring Framework, where I gained experience with object-oriented programming (OOP), Spring Boot, Maven, HTTP, and Postman.
+
+**Technologies:** Maven, Spring Boot, HTTP, Postman
+
+---
+
+### **Unity App Development (Internship)**  
+**Universitatea Transilvania din Brașov** — Brașov, România  
+**July 2021 - October 2021 (4 months)**  
+I worked on a Virtual Reality app using Unity, gaining knowledge in C#, 3D Modeling, and Animation.
+
+**Technologies:** Unity, C#, 3D Modeling
+
+---
+
+## Education
+
+### **Master's Degree in Advanced Systems in Automation and Applied Informatics**  
+**Universitatea Transilvania din Brașov**  
+**2023 - 2025**  
+Focus: Data Science, JavaScript
+
+---
+
+### **Bachelor's Degree in Automation and Applied Informatics**  
+**Universitatea Transilvania din Brașov**  
+**2019 - 2023**
+
+---
+
 ## Projects
 
 ### 1. **Smart Restaurant with Multi-Agent System**
