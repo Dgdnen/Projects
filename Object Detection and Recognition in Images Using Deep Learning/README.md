@@ -9,8 +9,8 @@ The **Object Detection and Recognition in Images Using Deep Learning** project f
 To get a better understanding of the project, check out these resources:
 
 1. **Detailed Documentation (PDF/DOCX):**
-   - [Detailed Document (PDF)](docs/DL_PROIECT_PATRANIA_BOGDAN_ANDREI.pdf) - This document covers everything from system requirements to implementation steps and technical solutions.
-   - If you prefer Word format, you can download [this version](docs/DL_PROIECT_PATRANIA_BOGDAN_ANDREI.docx).
+   - [Detailed Document (PDF)](DL_PROIECT_PATRANIA_BOGDAN_ANDREI.pdf) - This document covers everything from system requirements to implementation steps and technical solutions.
+   - If you prefer Word format, you can download [this version](DL_PROIECT_PATRANIA_BOGDAN_ANDREI.docx).
 
 2. **Presentation (PPTX):**
    - [Project Overview Presentation](docs/DL_Proiect_Patrania_Bogdan_Andrei.pptx) - A brief presentation that highlights the main objectives, steps, and results of the project. It’s perfect for a quick summary of what the project is about.
